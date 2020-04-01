@@ -1,18 +1,5 @@
 '''
 Enexory API examples
-Mar.24 2020
-
-Code owner:
-Florian Frank
-Market Analyst / Founder bei Enexory Energy Markets
-Berlin Area, Germany
-
-Software developers:
-
-Rasim ?????
-
-Evgeny Lyulkov, PhD
-Nizhny Novgorod area, Russia
 
 '''
 import sys, os, logging
@@ -23,8 +10,7 @@ from io import StringIO
 import pandas as pd
 from datetime import timedelta
 
-
-API_ENDPOINT = 'http://35.240.116.40/rest/'
+API_ENDPOINT = 'https://app.enexory.com/rest/'
 
 def check_response_status(response):
     if response.status_code != 200:
